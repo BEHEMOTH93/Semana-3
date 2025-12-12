@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 3 – Página Web HTML5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mi Página Web - Semana 3</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Inicio</a></li>
+                <li><a href="#seccion2">Contenido</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="seccion1">
+            <h2>Introducción</h2>
+            <h2>Rafael López</h2>
+            <p>
+                Esta es mi página web para la actividad de la <strong>Semana 3</strong>, donde aplico
+                etiquetas semánticas, listas, tablas, multimedia y formulario. También agrego estilos con <em>CSS</em>.
+            </p>
+
+            <h3>Imagen de ejemplo</h3>
+            <img src="assets/img/imagen1.jpg" alt="Imagen de ejemplo" width="350">
+        </section>
+
+        <section id="seccion2">
+            <article>
+                <h2>Video demostrativo</h2>
+                <video src="assets/video/video1.mp4" controls width="350"></video>
+            </article>
+
+            <h3>Listas</h3>
+            <h4>Lista ordenada:</h4>
+            <ol>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ol>
+
+            <h4>Lista desordenada:</h4>
+            <ul>
+                <li>Diseño web</li>
+                <li>Bases de datos</li>
+                <li>Redes</li>
+            </ul>
+
+            <h3>Enlace externo</h3>
+            <a href="https://www.youtube.com/watch?v=ZmaL3MYspw8" target="_blank">Lorna Shore: Pain Remains</a>
+
+            <h3>Tabla de productos</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mouse</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Teclado</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td>Monitor</td>
+                        <td>$120</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formulario">
+            <h2>Formulario de contacto</h2>
+            <form>
+                <label>Nombre:</label>
+                <input type="text" required>
+
+                <label>Correo:</label>
+                <input type="email" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 – Mi sitio web HTML5</p>
+    </footer>
+
+</body>
+</html>
